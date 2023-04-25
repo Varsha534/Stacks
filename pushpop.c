@@ -11,7 +11,7 @@ int main()
 	printf("Enter Your Choice \n 1.Push \n 2.Pop \n 3.Display \n");
 	scanf("%d",&choice);
 	
-	for(i=0; i<=15; i++)
+	for(int i=0; i<=15; i++)
 	{
 		switch(choice)
     	{
